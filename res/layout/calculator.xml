@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="fill_parent" android:orientation="vertical" android:layout_height="wrap_content">
+<TextView android:layout_height="wrap_content" android:textSize="32sp" android:background="@android:color/white" android:inputType="number" android:id="@+id/TextAnswer" android:layout_width="fill_parent" android:text="12345" android:gravity="right"></TextView>
+
+<TableLayout android:id="@+id/TableLayout01" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="0,1,2,3">
+<TableRow android:id="@+id/TableRow01" android:layout_height="wrap_content" android:layout_width="fill_parent">
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="7" android:id="@+id/Button7"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="8" android:id="@+id/Button8"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="9" android:id="@+id/Button9"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="/" android:id="@+id/ButtonDv"></Button>
+</TableRow>
+<TableRow android:id="@+id/TableRow02" android:layout_height="wrap_content" android:layout_width="fill_parent">
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="4" android:id="@+id/Button4"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="5" android:id="@+id/Button5"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="6" android:id="@+id/Button6"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="*" android:id="@+id/ButtonTm"></Button>
+</TableRow>
+<TableRow android:id="@+id/TableRow03" android:layout_height="wrap_content" android:layout_width="fill_parent">
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1" android:id="@+id/Button1"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2" android:id="@+id/Button2"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3" android:id="@+id/Button3"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-" android:id="@+id/ButtonMn"></Button>
+</TableRow>
+<TableRow android:id="@+id/TableRow04" android:layout_height="wrap_content" android:layout_width="fill_parent">
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:id="@+id/Button0"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="." android:id="@+id/ButtonCm"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="=" android:id="@+id/ButtonEq"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+" android:id="@+id/ButtonPl"></Button>
+</TableRow>
+</TableLayout>
+
+</LinearLayout>
+
+<ListView android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/ListResults"></ListView>
+
+</LinearLayout>
